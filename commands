@@ -1,0 +1,29 @@
+git init 
+git clone url
+then move the file into the clone practice
+git status 
+git add .
+git commit -m "first commit"
+git branch
+git branch -m main 
+git push -u origin main
+after push it will ask for username and password then put it in
+git log -to see the history 
+git stach - to hide perticular file
+git stach apply - to restore hiden file which you have stach before
+git restore --stagied 
+git reset <commit id>
+git reset --hard <commit id>
+
+*HEAD=> it is shown that what is you position in branching
+
+git checkout <commit id>
+git checkout main
+git diff HEAD
+git branch <branch name>
+git branch - to see branch create or not 
+git log --graph
+git commit --amend 
+git cherry-pick code - (it is used for selected changes)
+git tag release1.0 -(it is used for tagging an it is for customer)
+
